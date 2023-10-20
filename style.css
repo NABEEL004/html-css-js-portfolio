@@ -44,13 +44,13 @@ nav {
     font-size: 1.5rem;
 }
 
-a {
+nav a {
     color: black;
     text-decoration: none;
     text-decoration-color: white;
 }
 
-a:hover {
+nav a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -129,4 +129,112 @@ a:hover {
 
 .hamburger-icon span:last-child {
     transform: none;
+}
+
+
+/* CONTENT STYLING */
+
+#content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: fit-content;
+    align-items: center;
+    /* padding: 3rem 6rem; */
+}
+
+section {
+    /* padding: 3rem 0rem; */
+    width: 65%;
+    height: 94vh;
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 2.2rem;
+    text-align: center;
+
+
+}
+
+/* PROFILE STYLING */
+
+#profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 83vh;
+    padding-top: 0;
+}
+
+.logo-wrapper img {
+    height: 400px;
+    width: 400px;
+}
+
+.details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.details-wrapper img {
+    height: 48px;;
+    width: 48px;
+}
+
+.details-wrapper a div {
+    background-color: white;
+    border-color: gray;
+    border-radius: 30px;
+    text-decoration: none;
+    border-width: 5px;
+    padding: 1rem 3rem;
+}
+
+.details-wrapper a div:hover {
+    background-color: aqua;
+    text-decoration: none;
+}
+
+/* ABOUT STYLING */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.about-element {
+    border-style: solid;
+    width: 25vw;
+    border-radius: 25px;
+    border-color: rgba(0,0,0,0.3);
+    padding: 1.5rem 1rem;
+    margin: 0 1rem;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-element h2 {
+    margin-top: 1rem;
+    height: 5vh;
+}
+
+.about-element p {
+    height: 25vh;
+}
+
+.about-element img {
+    height: 128px;
 }

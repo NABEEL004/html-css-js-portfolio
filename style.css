@@ -238,3 +238,19 @@ section h1 {
 .about-element img {
     height: 128px;
 }
+
+/* EXPERIENCE STYLING */
+
+.experience-element img {
+    height: 160px;
+    padding: 0 1.5rem;
+}
+
+.experience-element {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    width: 60vw;
+    justify-content:start;
+
+}

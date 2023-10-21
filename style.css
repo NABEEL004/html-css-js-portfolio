@@ -385,9 +385,60 @@ section h1 {
     transition: all 150ms ease-in-out;
 }
 
+/* .code-button {
+    /* max-width: 5px; */
+    /* background-color: aqua;
+    display: inline;
+    height: fit-content;
+    overflow: hidden;
+    display: none;
+}
+
+
+.code-button:hover {
+    display: inline;
+    transition: all 300ms ease-in-out;
+} */ 
+
 
 /* CONTACT STYLING  */
 
+.contact-wrapper img{
+    height: 128px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+.contact-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    padding: 2rem 1rem;
+    border-color: rgba(0,0,0, 0.1);
+    border-radius: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 30vw;
+    margin: 1.4rem;
+    transition: all 150ms ease-in-out;
+    color: black;
+}
+
+.contact-element:hover {
+    transform: scale(1.03);
+    /* border-color: rgba(0,0,0, 0.3); */
+    box-shadow: 0 0.4rem 0.2rem gray;
+    transition: all 150ms ease-in-out;
+
+}
 #contact .navigation-arrow{
     transform: rotate(0deg);
 }

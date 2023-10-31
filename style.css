@@ -5,7 +5,6 @@
 * {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
 }
 
 html {
@@ -14,6 +13,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif; 
+    overflow-x: hidden;
 }
 
 p {
@@ -68,6 +68,7 @@ nav a:hover {
 
 #hamburger-nav {
     display: none;
+
 }
 
 .hamburger-menu {
@@ -99,6 +100,8 @@ nav a:hover {
     width: fit-content;
     overflow: hidden;
     transition: all 300ms ease-in-out;
+    z-index: 9999;
+
 }
 
 .menu-links ul li {
@@ -164,7 +167,7 @@ section h1 {
 
 }
 
-.navigation-arrow {
+.navigation-arrow, .navigation-arrow-narrow {
     position: absolute;
     right: 2rem;
     bottom: 2rem;
@@ -175,9 +178,13 @@ section h1 {
 
 }
 
-.navigation-arrow:hover {
+.navigation-arrow:hover, .navigation-arrow-narrow:hover {
     transform: rotate(180deg) translateY(-0.5rem);
     transition: all 300ms ease-in-out;
+}
+
+.navigation-arrow-narrow {
+    display: none;
 }
 
 /* PROFILE STYLING */
@@ -439,10 +446,10 @@ section h1 {
     transition: all 150ms ease-in-out;
 
 }
-#contact .navigation-arrow{
+#contact .navigation-arrow, #contact .navigation-arrow-narrow{
     transform: rotate(0deg);
 }
 
-#contact .navigation-arrow:hover {
+#contact .navigation-arrow:hover, #contact .navigation-arrow-narrow:hover {
     transform: translateY(-0.5rem);
 }

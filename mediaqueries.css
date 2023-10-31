@@ -5,5 +5,125 @@
 
     #hamburger-nav {
         display: flex;
+        overflow-x:visible;
+        overflow-y: visible;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+    }
+    .profile-container {
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    .profile-container .logo-wrapper img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .profile-container .details-wrapper {
+        margin-top: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .profile-container p {
+        font-size: 1rem;
+    }
+    .profile-container h1 {
+        font-size: 2rem;
+    }
+    .profile-container h3 {
+        font-size: 1.2rem;
+    }
+
+    #about {
+        height: fit-content;
+    }
+    .about-container {
+        flex-direction: column;
+        margin-top: 0.2rem;
+        justify-content:flex-start;
+    }
+
+    .about-container p {
+        font-size: 1rem;
+        /* width: 70%; */
+        
+    }
+
+    .about-element {
+        /* flex-direction: row; */
+        /* height: 21vh; */
+        width: 65vw;
+        padding: 0.5rem 0.8rem;
+        margin: 0.5rem;
+        height: 70vh;
+        padding: 2rem;
+        margin-top: 2rem;
+        /* justify-content:baseline */
+    }
+
+    .navigation-arrow {
+        display: none;
+    }
+
+    .navigation-arrow-narrow {
+        display: block;
+    }
+
+    /* .about-element img {
+        height: 64px;
+    }
+
+    .about-element h2 {
+        font-size: 1rem;
+    }*/
+    .experience-element img {
+        height: 64px;
+        /* padding: 0 1.5rem; */
+    }
+
+    .experience-element {
+        flex-direction: column;
+        padding: 2rem;
+        width: 70vw;
+        justify-content:start;
+        align-items: center;
+    }
+
+    .experience-details {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .skills-wrapper {
+        width: 65vw;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #projects {
+        height: fit-content;
+    }
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .contact-element {
+        width: 70vw;
+        height: 15vh;
+    }
+
+    .contact-wrapper img{
+        height: 64px;
     }
 }

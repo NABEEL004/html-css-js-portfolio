@@ -12,6 +12,10 @@
     nav a:hover {
         text-decoration: none;
     }
+
+    section h1 {
+        margin-top: 2rem;
+    }
     .profile-container {
         flex-direction: column;
         justify-content: space-between;
@@ -49,7 +53,9 @@
     }
 
     .about-container p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        margin: auto;
+        height: auto;
         /* width: 70%; */
         
     }
@@ -60,7 +66,7 @@
         width: 65vw;
         padding: 0.5rem 0.8rem;
         margin: 0.5rem;
-        height: 70vh;
+        height: 60vh;
         padding: 2rem;
         margin-top: 2rem;
         /* justify-content:baseline */
@@ -89,7 +95,7 @@
     .experience-element {
         flex-direction: column;
         padding: 2rem;
-        width: 70vw;
+        width: 77vw;
         justify-content:start;
         align-items: center;
     }
@@ -104,7 +110,7 @@
     }
 
     .skills-wrapper {
-        width: 65vw;
+        width: 70vw;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
